@@ -1,0 +1,95 @@
+.auth{
+	padding-top: 40px;
+	margin-bottom: 40px;
+}
+
+.auth h3{
+	text-transform: uppercase;
+	color: #575153;
+	margin-top: 0;
+}
+
+.auth input{
+	color: #989898;
+	padding: 5px;
+	margin-bottom: 25px;
+}
+
+.auth button{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #333333;
+	border: 2px solid #333333;
+	border-radius: 0;
+	background-color: transparent;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.auth button:hover{
+	background-color: #00c8c8;
+	border-color: #00c8c8;
+	color: #fff;
+}
+
+.auth a{
+	color: #00c8c8;
+}
+
+.sign-in-active{
+	padding:0 ;
+}
+
+.auth .checkbox-remember{
+	margin-bottom: 25px;
+}
+
+.auth .checkbox-remember input{
+	margin: 0;
+}
+
+.checkbox-remember label{
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+.sign-in-active a{
+	margin-top: 17px;
+}
+
+.register-col{
+	border-left: 1px solid #989898;
+}
+
+.register-agreement input, .register-agreement label{
+	margin: 0;
+}
+
+.register-agreement input, .checkbox-remember input{	
+	border-color: #989898;
+	width: 25px;
+	height: 25px;
+}
+
+.register-agreement label, .checkbox-remember label{
+	font-weight: 100;
+	font-size: 15px;
+	color: #989898;
+	margin-top: 2px;
+}
+
+.register-agreement{
+	margin-bottom: 25px;
+}
+
+.register-active span{
+	color: #989898;
+}
+
+.register-active{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+

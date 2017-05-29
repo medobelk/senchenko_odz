@@ -1,0 +1,169 @@
+.filter{
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+
+.filter ul{
+	border-top: 1px solid #eeeeee;
+	padding-top: 20px;
+}
+
+.filter .nav a{
+	font-weight: 600;
+	color: #727272;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding-left: 0;
+}
+
+.filter .nav a:hover{
+	color: #00c8c8;
+}
+
+.gallery div{
+	margin-bottom: 25px;
+}
+
+.bottom-divider p{
+	border-bottom: 1px solid #eeeeee;
+	margin: 10px 0px 35px;
+}
+
+.gallery-price{
+	margin-bottom: 0 !important; 
+	position: relative;
+}
+
+.gallery-price .price{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 100;
+}
+
+.item-info-btn{
+	position: absolute;
+	left: 45%;
+	top: 60%;
+	background-color: #ffffff;
+	border-radius: 50%;
+	display: none;
+	height: 40px;
+	width: 40px;
+	border: none;
+}
+
+.thumbs{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	display: none;
+	background-color: transparent;
+}
+
+.thumbs img{
+	border: 1px solid #ffffff;
+	margin-bottom: 10px;
+}
+
+.thumbs img:hover{
+	border: 1px solid black;
+}
+
+.item-info{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	z-index: 5000;
+	display: none;
+	text-align: center;
+	background-color: #fff;
+	border-top: 1px solid #c2c2c2;
+	box-shadow: 0 2px 10px #c2c2c2;
+	padding: 5px 10px 15px;
+}
+
+.item-info h5{
+	color: #727272;
+	text-transform: uppercase;
+	font-weight: 600;	
+	font-size: 12px;
+}
+
+.item-info p{
+	color: #8e8c8c;
+	font-size: 12px;
+}
+
+.item-info i{
+	background-color: #727272;
+	color: #fff;
+	border: none;
+	border-radius: 50%;
+	margin-right: 15px;
+	padding: 10px 0px;
+	width: 35px;
+}
+
+.item-info i:hover{
+	background-color: #00c8c8;
+}
+
+.gallery-price:hover{
+	box-shadow: 0 0 10px #c2c2c2;
+}
+
+.gallery-price:hover .item-info, .gallery-price:hover .item-info-btn, .gallery-price:hover .thumbs{
+	display: block;
+}
+
+.lookbooks .row{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: auto;
+	margin-bottom: 65px;
+}
+
+.lookbook{
+	background-color: #f8f8f8;
+	direction: rtl;
+	margin-right: 25px;
+	padding-right: 30px;
+}
+
+.lookbookss:last-child{
+	margin-right: 0;
+}
+
+.lookbook img{
+	width: 40%;
+	margin-right: 10px;
+}
+
+.lookbook h3{
+	margin-top: 10px;
+	font-size: 42px;
+	color: #575153;
+	text-transform: uppercase;
+}
+
+.lookbook p{
+	font-size: 15px;
+	color: #727272;
+}
+
+.lookbook button{
+	background-color: transparent;
+	border-radius: 0;
+	border: 2px solid #737373;
+	text-transform: uppercase;
+	color: #737373;
+	font-size: 16px;
+}
+
+.lookbook button:hover{
+	background-color: #00c8c8;
+	border-color: #00c8c8;
+	color: #ffffff;
+}

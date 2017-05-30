@@ -13,6 +13,8 @@
 
 Route::get('/product_view/{id}', 'ProductViewController@index');
 
+Route::post('/product_view/{id}', 'ProductViewController@addComment');
+
 Route::get('/tag/{id}', 'TagController@index');
 
 Route::get('/user/{id}', 'UserController@index');

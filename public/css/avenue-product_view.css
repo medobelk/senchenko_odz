@@ -137,3 +137,24 @@
 .comment-content{
 	font-size: 18px;
 }
+
+.comment-area{
+	border: 2px solid;
+	border-color: #989898;
+	height: 65px;
+}
+
+.comment-new{
+	margin-bottom: 15px;
+}
+
+.comment-submit{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #333333;
+	border: 2px solid #333333;
+	border-radius: 0;
+	background-color: transparent;
+	padding: 19px 0;
+	margin-left: 15px;
+}

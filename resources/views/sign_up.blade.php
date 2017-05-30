@@ -4,7 +4,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/avenue-sign_up.css">
 
-@endsection
+@endsection 
 
 @section('content')
 

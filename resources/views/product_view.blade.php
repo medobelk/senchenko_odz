@@ -24,7 +24,7 @@
 						<li><a href="#">Add a Review</a></li>
 						<!-- <li>Share </li> -->
 					</ul>
-					<p class="price"><!-- <span class="old-price">£107</span> -->  <span class="new-price">{{$item->price}}</span></p>
+					<p class="price"><!-- <span class="old-price">£107</span> -->  <span class="new-price">${{$item->price}}</span></p>
 					<div class="item-info">
 						<p>availability: <span class="availability">{{$item->availability}}</span></p>
 						<!-- <p>Product Code: <span class="item-code">#499577</span></p> -->
@@ -73,6 +73,13 @@
 				</div>
 				<div class="comments col-lg-12">
 					<h3>Reviews: </h3>
+					<div class="comment-new clearfix">
+						<form method="POST" action="" >
+							{{ csrf_field() }}
+							<textarea class="comment-area col-lg-9" name="content"></textarea>
+							<input class="btn btn-lg col-lg-2 comment-submit" type="submit" name="submit_comment" value="Add Comment">
+						</form>
+					</div>
 					<br>
 					@foreach($item->comments()->with('user')->get() as $comment)
 						<div class="comment clearfix">
